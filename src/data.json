@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"url": "./Images/dell1.jfif",
+		"name": "dell xps 13",
+		"price": 45000
+	},
+	{
+		"id": 2,
+		"url": "./Images/dell2.jfif",
+		"name": "dell inspiron 15",
+		"price": 43000
+	},
+	{
+		"id": 3,
+		"url": "./Images/dell3.jfif",
+		"name": "dell Vostro 14",
+		"price": 49900
+	},
+	{
+		"id": 4,
+		"url": "./Images/dell4.jfif",
+		"name": "dell ispiron  13",
+		"price": 47000
+	},
+	{
+		"id": 5,
+		"url": "./Images/hp1.jfif",
+		"name": "hp ideaPad",
+		"price": 45800
+	},
+	{
+		"id": 6,
+		"url": "./Images/hp2.jfif",
+		"name": "hp thinkPad",
+		"price": 45000
+	},
+	{
+		"id": 7,
+		"url": "./Images/hp3.jfif",
+		"name": "hp gastro 15",
+		"price": 55000
+	},
+	{
+		"id": 8,
+		"url": "./Images/lenovo1.jfif",
+		"name": "lenovo v14 intel",
+		"price": 40000
+	},
+	{
+		"id": 9,
+		"url": "./Images/lenovo2.jfif",
+		"name": "lenovo ideaPad",
+		"price": 59000
+	}
+]

@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"url": "https://www.nexus.com.bd/images/detailed/5/Dell_Vostro_14-3401_Core_i3_10th_Gen_4GB_Ram_Laptop.jpg",
+		"name": "dell xps 13",
+		"price": 45000
+	},
+	{
+		"id": 2,
+		"url": "https://classyprice.com.bd/images/Dell-Inspiron-15-5570-8th-Gen-Core-i3-a.jpg",
+		"name": "dell inspiron 15",
+		"price": 43000
+	},
+	{
+		"id": 3,
+		"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4T-q9qJ47yL515End8A2PXmrvNvzFu9Qb6g&usqp=CAU",
+		"name": "dell Vostro 14",
+		"price": 49900
+	},
+	{
+		"id": 4,
+		"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCHj9AU1alDL91bTFNMpIEOnbzUmQI6atwRA&usqp=CAU",
+		"name": "dell ispiron  13",
+		"price": 47000
+	},
+	{
+		"id": 5,
+		"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRU4g7RuzL8AYLoSkrStyxRLXhT40aiyuunw&usqp=CAU",
+		"name": "hp ideaPad",
+		"price": 45800
+	},
+	{
+		"id": 6,
+		"url": "https://www.pngitem.com/pimgs/m/106-1066696_dell-laptop-png-pic-png-of-laptops-with.png",
+		"name": "hp thinkPad",
+		"price": 45000
+	},
+	{
+		"id": 7,
+		"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH6UqNbXcnmQMKDOJqJdecmmwoFXkNmHN0hA&usqp=CAU",
+		"name": "hp gastro 15",
+		"price": 55000
+	},
+	{
+		"id": 8,
+		"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3O19SeIRbiqxkB9ZcLxonjw9E_eXqZjAh3g&usqp=CAU",
+		"name": "lenovo v14 intel",
+		"price": 40000
+	},
+	{
+		"id": 9,
+		"url": "https://atlas-content-cdn.pixelsquid.com/stock-images/new-dell-xps-13-9300-laptop-724Vkn7-600.jpg",
+		"name": "lenovo ideaPad",
+		"price": 59000
+	}
+]

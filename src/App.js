@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import dell1 from "./Images/dell1.jfif";
+import Container from "./Components/Container/Container";
 function App() {
 	return (
 		<div>
-			<img src={dell1} alt="" />
+			<h1 className="header">Buy Your Favourite Laptop</h1>
+			<p className="subtitle">Choose 4 laptop you like</p>
+			<Container></Container>
 		</div>
 	);
 }

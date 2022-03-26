@@ -5,12 +5,17 @@ import React from "react";
 import "./Items.css";
 const Items = (props) => {
 	let items = props.data;
-	console.log(items);
+	// const { items, handleAddToCart } = props.data;
+	const handleAddToCart = props.handleAddToCart;
 
 	return (
 		<div className="items">
 			{items.map((item) => (
-				<Item data={item} key={item.id}></Item>
+				<Item
+					data={item}
+					key={item.id}
+					handleAddToCart={handleAddToCart}
+				></Item>
 			))}
 		</div>
 	);
@@ -18,12 +23,14 @@ const Items = (props) => {
 function Item(props) {
 	let item = props.data;
 	const { name, url, id, price } = item;
+	const handleAddToCart = props.handleAddToCart;
+	console.log(handleAddToCart);
 	return (
 		<div className="item">
 			<img className="image" src={url} alt="" />
 			<h2>{name}</h2>
 			<h4>Price: {price} tk.</h4>
-			<button>
+			<button onClick={() => handleAddToCart(item)}>
 				<span>Add to cart</span>
 				<FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
 			</button>

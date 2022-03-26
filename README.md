@@ -1,3 +1,3 @@
 # Buy Your Favourite Laptop
 
-Website link: [Assignment-8](https://github.com/facebook/create-react-app).
+Website link: [Assignment-8](https://sharif-assignment8.netlify.app).

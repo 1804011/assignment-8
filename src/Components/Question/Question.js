@@ -2,7 +2,7 @@ import React from "react";
 import "./Question.css";
 const Question = () => {
 	return (
-		<div>
+		<div className="question-container">
 			<h3 className="question">
 				Difference Between State and props in react??
 			</h3>

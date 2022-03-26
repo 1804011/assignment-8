@@ -26,8 +26,9 @@ const Container = () => {
 	const handleChoose = () => {
 		if (selected.length > 0) {
 			let random = parseInt(Math.random() * 100) % selected.length;
-			console.log(random);
+
 			setChoosed(selected[random]);
+			console.log(choosed);
 		}
 	};
 	return (

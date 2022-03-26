@@ -8,17 +8,18 @@ const Cart = (props) => {
 	const resetCart = props.resetCart;
 	const handleChoose = props.handleChoose;
 	const choosed = props.choosed;
-	// console.log(selectedItems);
+
+	console.log(choosed, selectedItems[0]);
 
 	return (
 		<div className="cart-container">
 			<h3>Selected Laptops</h3>
 			{selectedItems.map((item) => (
-				<SelectedItem data={item}></SelectedItem>
+				<SelectedItem data={item} flag={0}></SelectedItem>
 			))}
+			<SelectedItem data={choosed} flag={1}></SelectedItem>
 			<button onClick={handleChoose}>CHOOSE 1 FOR ME</button>
 			<button onClick={resetCart}>CHOOSE AGAIN</button>
-			<selectedItems data={choosed}></selectedItems>
 		</div>
 	);
 };

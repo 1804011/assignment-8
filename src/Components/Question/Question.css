@@ -1,0 +1,8 @@
+div .question,
+div .answer {
+	text-align: left;
+	padding-left: 15px;
+}
+div {
+	margin-bottom: 48px;
+}

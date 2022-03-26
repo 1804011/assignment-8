@@ -5,9 +5,10 @@ import SelectedItem from "../SelectedItem/SelectedItem";
 import "./Cart.css";
 const Cart = (props) => {
 	const selectedItems = props.data;
-	const resetCart = props.resetCart;
-	const handleChoose = props.handleChoose;
-	const choosed = props.choosed;
+	// const resetCart = props.resetCart;
+	// const handleChoose = props.handleChoose;
+	// const choosed = props.choosed;
+	const { resetCart, handleChoose, choosed } = props;
 
 	console.log(choosed, selectedItems[0]);
 

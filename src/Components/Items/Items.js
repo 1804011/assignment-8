@@ -5,7 +5,6 @@ import React from "react";
 import "./Items.css";
 const Items = (props) => {
 	let items = props.data;
-	// const { items, handleAddToCart } = props.data;
 	const handleAddToCart = props.handleAddToCart;
 
 	return (
@@ -22,9 +21,9 @@ const Items = (props) => {
 };
 function Item(props) {
 	let item = props.data;
+	//destructuring done here
 	const { name, url, id, price } = item;
 	const handleAddToCart = props.handleAddToCart;
-	console.log(handleAddToCart);
 	return (
 		<div className="item">
 			<img className="image" src={url} alt="" />
